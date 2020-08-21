@@ -72,7 +72,7 @@
    * Add smooth scrolling to all links inside the main navbar.
    * --------------------------------------------------------------------------- */
 
-  /* $('#navbar-main li.nav-item a.nav-link #cta-btns, .js-scroll').on('click', function (event) {
+  $('#navbar-main li.nav-item a.nav-link #cta-btns, .js-scroll').on('click', function (event) {
     // Store requested URL hash.
     let hash = this.hash;
 
@@ -86,17 +86,16 @@
       let elementOffset = Math.ceil($(hash).offset().top - getNavBarHeight());  // Round up to highlight right ID!
 
       // Uncomment to debug.
-      let scrollTop = $(window).scrollTop();
-      let scrollDelta = (elementOffset - scrollTop);
-      console.debug('Scroll Delta: ' + scrollDelta);
+      // let scrollTop = $(window).scrollTop();
+      // let scrollDelta = (elementOffset - scrollTop);
+      // console.debug('Scroll Delta: ' + scrollDelta);
 
       $('html, body').animate({
         scrollTop: elementOffset
       }, 800);
     }
-  }); */
-  
- 
+  });
+
   /* ---------------------------------------------------------------------------
    * Hide mobile collapsable menu on clicking a link.
    * --------------------------------------------------------------------------- */

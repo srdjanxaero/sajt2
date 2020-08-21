@@ -72,7 +72,7 @@
    * Add smooth scrolling to all links inside the main navbar.
    * --------------------------------------------------------------------------- */
 
-  /* $('#navbar-main li.nav-item a.nav-link #cta-btns, .js-scroll').on('click', function (event) {
+  $('#navbar-main li.nav-item a.nav-link #cta-btns, .js-scroll').on('click', function (event) {
     // Store requested URL hash.
     let hash = this.hash;
 
@@ -86,16 +86,43 @@
       let elementOffset = Math.ceil($(hash).offset().top - getNavBarHeight());  // Round up to highlight right ID!
 
       // Uncomment to debug.
-      let scrollTop = $(window).scrollTop();
-      let scrollDelta = (elementOffset - scrollTop);
-      console.debug('Scroll Delta: ' + scrollDelta);
+      // let scrollTop = $(window).scrollTop();
+      // let scrollDelta = (elementOffset - scrollTop);
+      // console.debug('Scroll Delta: ' + scrollDelta);
 
       $('html, body').animate({
         scrollTop: elementOffset
       }, 800);
     }
-  }); */
+  });
   
+  
+
+        $(document).ready(function () {
+            // Add smooth scrolling to all links in navbar + footer link
+            $('a[href*="#"]').on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
  
   /* ---------------------------------------------------------------------------
    * Hide mobile collapsable menu on clicking a link.

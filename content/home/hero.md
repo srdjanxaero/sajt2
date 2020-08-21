@@ -48,8 +48,10 @@ hero_media = "hero-academic.png"
 
 +++
 ---
-We provide data-driven solutions and services enabling our clients to turn their data into a business advantage. 
+We provide **data-driven solutions**, **training**, and **consulting** which will enable you to **turn your data into a business advantage**.
 
-We do this by thoughtfully applying the paradigms of **Data Science**, **Artificial Intelligence**, **Machine Learning**, and **Industrial Internet of Things**.
+We do this by thoughtfully applying the paradigms of **Data Science**, **Artificial Intelligence**, **Machine Learning**, and **Internet of Things**.
+
+Ultimately, we deliver reliable solutions and services that create real business opportunities in the age of **Data Economy**.
 
 <!--<span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>-->
