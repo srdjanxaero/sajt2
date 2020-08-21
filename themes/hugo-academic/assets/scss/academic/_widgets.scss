@@ -134,19 +134,33 @@
   animation: intro 0.3s both;
   animation-delay: 0s;
   animation-delay: 0.25s;
-  height: 100vh;
   /* width: 100vw; */
 }
 
+@media screen and (min-width: 768px) {
+  .wg-hero {
+    padding: 3em 0;
+    clear: both;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: intro 0.3s both;
+    animation-delay: 0s;
+    animation-delay: 0.25s;
+    height: 100vh;
+  /* width: 100vw; */
+  }
+}
+
 .hero-title {
-  font-size: 2em;
+  font-size: 2rem;
   margin-top: 0;
   line-height: 1;
 }
 
 .hero-lead {
   max-width: 768px;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .wg-hero.dark .hero-title,
