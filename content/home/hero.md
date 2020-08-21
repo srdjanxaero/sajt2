@@ -21,7 +21,7 @@ hero_media = "hero-academic.png"
   
   # Background gradient.
   gradient_start = "#FFFFFF"
-  gradient_end = "#88AAFF"
+  gradient_end = "#091F3F"
   
   # Background image.
   # image = ""  # Name of image in `static/media/`.
@@ -37,7 +37,7 @@ hero_media = "hero-academic.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "#demo"
+  url = "#contact"
   label = "Find out more"
   icon_pack = "fas"
   icon = "chevron-circle-down"
@@ -52,6 +52,6 @@ We provide **data-driven solutions**, **training**, and **consulting** which wil
 
 We do this by thoughtfully applying the paradigms of **Data Science**, **Artificial Intelligence**, **Machine Learning**, and **Internet of Things**.
 
-Ultimately, we deliver reliable solutions and services that create real business opportunities in the age of **Data Economy**.
+Ultimately, we deliver reliable solutions and services which create real business opportunities in the age of **Data Economy**.
 
 <!--<span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>-->
