@@ -44,7 +44,7 @@ subtitle = ""
 
 [advanced]
  # Custom CSS. 
- css_style = "height: 100vh;"
+ css_style = "@media screen and (min-width: 768px) {height: 100vh;}"
  
  # CSS class.
  css_class = ""
