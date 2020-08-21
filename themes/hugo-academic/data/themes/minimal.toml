@@ -5,12 +5,12 @@ name = "Minimal"
 light = true
 
 # Primary
-primary = "#091f3f"
+primary = "#476373"
 
 # Menu
 menu_primary = "#fff"
 menu_text = "#34495e"
-menu_text_active = "#1E69D9"
+menu_text_active = "#357EA6"
 menu_title = "#273B59"
 
 # Home sections
