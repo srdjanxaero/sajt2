@@ -177,7 +177,17 @@ $aspekt169 : "(min-aspect-ratio: 16/9)";
   .home-section:first-of-type {
     padding-top: 20px;
   }
-  height: auto;
+  
+  .wg-hero {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+  
+  .wg-hero p {
+    font-size: 1rem;
+  }
+  
+  /* height: auto; */
 }
 
 .hero-title {
