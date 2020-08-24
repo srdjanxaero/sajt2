@@ -48,7 +48,7 @@ hero_media = "hero-academic.png"
 
 +++
 ---
-We provide **data-driven solutions**, **training**, and **consulting** which will enable you to **turn your data into a business advantage**.
+We provide **data-driven solutions**, **training**, and **consulting** which will **turn your data into a business advantage**.
 
 We do this by thoughtfully applying the paradigms of **Data Science**, **Artificial Intelligence**, **Machine Learning**, and **Internet of Things**.
 
